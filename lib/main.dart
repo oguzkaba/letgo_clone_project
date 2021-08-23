@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:letgo_clone_project/view/home-page.dart';
+import 'package:letgo_clone_project/view/homePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
             primaryTextTheme:
                 TextTheme(headline6: TextStyle(color: Colors.grey)),
             primaryColor: Colors.redAccent,
-            appBarTheme: AppBarTheme(color: Colors.white70, centerTitle: true)));
+            appBarTheme: AppBarTheme(color: Colors.white, centerTitle: true)));
   }
 }
