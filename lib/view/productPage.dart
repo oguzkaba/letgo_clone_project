@@ -6,6 +6,7 @@ import 'package:letgo_clone_project/view/widgets/swiper_widget.dart';
 // ignore: must_be_immutable
 class ProductView extends StatelessWidget {
   ProductView({Key? key}) : super(key: key);
+
   DataViewController dvc = Get.put(DataViewController());
 
   @override
