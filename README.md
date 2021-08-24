@@ -1,5 +1,7 @@
 # letgo_clone_project
 
+![alt text](assets/ss.png)
+
 A new Flutter project.
 
 ## Getting Started
