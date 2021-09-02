@@ -23,8 +23,11 @@ class SwiperWidget extends StatelessWidget {
       viewportFraction: 1,
       itemCount: imgList.length,
       itemBuilder: (context, index) {
-        return Image.network(
-          imgList[index],
+        return FadeInImage.assetNetwork(
+          placeholderCacheHeight: 64,
+          placeholderCacheWidth: 64,
+          placeholder: 'assets/loading.gif',
+          image: imgList[index],
           height: imageHeight,
           fit: fit,
         );
